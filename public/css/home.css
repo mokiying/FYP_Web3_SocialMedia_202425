@@ -1,0 +1,71 @@
+body {
+    padding-top: 56px;
+}
+.sidebar {
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+.notification {
+    height: 100vh;
+    border-left: 1px solid #e5e7e9;
+}
+
+.notification-list{
+    border: none;  
+}
+
+.notification-list+.notification-list{
+    border-top: 1px solid #e5e7e9;
+}
+
+.notification-list:hover{
+    cursor: pointer;
+    background-color: #eaf2f8;
+}
+
+.notification-title{
+    padding: 1rem;
+}
+
+.card-post{
+    border: 1px solid #e5e7e9;
+    padding: 20px;
+}
+
+.card-post .card-userinfo{
+    padding: 0px;
+}
+
+.card-post .post-element{
+    border-top: 1px solid #e5e7e9;
+    margin-top: 20px;
+}
+
+div .space-before-content{
+    margin: 10px;
+}
+
+.post-active-bar-line{
+    display: flex;
+}
+
+.post-active-bar-line img{
+    width: 20px;
+    height: 20px;
+}
+
+.post-active-bar-line span{
+    margin: 8px;
+}
+
+.post-active-bar-line div+div{
+    margin-left: 10px;
+}
+
+.post-active-bar-line div{
+    cursor: pointer;
+}
+
+.post-active-bar-line div:hover{
+    color: #2e86c1;
+}

@@ -1,0 +1,47 @@
+<html>
+<head>
+    <title>Our Social Media</title>
+	<link rel="stylesheet" href="../public/css/bootstrap.css">
+    <link rel="stylesheet" href="../public/css/login.css">
+</head>
+<body>
+<div class="block">
+<form action="/login" method="post">
+
+	<div id="signin" class="form-section">
+		<div class="card mt-5">
+			<div class="card-body">
+				<h3 class="card-title text-center">Your Social Media</h3>
+	
+				<form>
+					<div class="form-group">
+						<input id="username" type="text" class="form-control" placeholder="Username" />
+						<div id="emailErrorMsg" class="text-danger"></div>
+					</div>
+	
+					<div class="form-group">
+						<input id="password" type="password" class="form-control" placeholder="Password" />
+						<div id="passwordErrorMsg" class="text-danger"></div>
+					</div>
+	
+					<div class="form-group">
+						<a href="/forget_password">Forgot password?</a>
+					</div>
+	
+					<button type="submit" id="submit" class="btn btn-primary btn-block line-before">Login</button>
+	
+					<div class="text-center line">
+						<span>or</span>
+					</div>
+	
+					<div class="form-group text-center">
+						<a href="/register" class="btn btn-secondary">Sign up</a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</form>
+</div>
+</body>
+</html>

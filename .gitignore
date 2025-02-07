@@ -1,3 +1,5 @@
 node_modules/
 node_modules/gun/stats.data
 node_modules/gun/stats.radata
+radata/
+.gitignore.bak

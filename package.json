@@ -1,0 +1,22 @@
+{
+  "name": "alin3_fyp",
+  "version": "1.0.0",
+  "description": "web3-socialmedia",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^2.1.0",
+    "body-parser": "^1.20.3",
+    "cookie-session": "^2.1.0",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "express-formidable": "^1.2.0",
+    "gun": "^0.2020.1240"
+  },
+  "keywords": []
+}

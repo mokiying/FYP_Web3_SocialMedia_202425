@@ -1,0 +1,43 @@
+.card-userinfo {
+    display: flex;
+    padding: 1rem;
+}
+
+.card-userinfo img{
+    width: 30px;
+    height: 30px;
+}
+
+.card-userinfo h5{
+    margin: 4px;
+}
+
+#menu {
+    border-right: 1px solid #e5e7e9;
+}
+
+#menu div.card-userinfo+ul.nav{
+    border-top: 1px solid #e5e7e9;
+}
+
+#menu .nav-item{
+    display: flex;
+    padding: .5rem 0rem;
+}
+
+#menu li img{
+    width: 20px;
+    height: 20px;
+}
+
+#menu .nav-item span{
+    margin: 8px;
+}
+
+#menu .nav-item a{
+    color:black;
+}
+
+#menu .nav-item a:hover{
+    color:#2e86c1;
+}

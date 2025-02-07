@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Social Media</title>
+    <link rel="stylesheet" href="../public/css/bootstrap.css">
+    <link rel="stylesheet" href="../public/css/home.css">
+    <link rel="stylesheet" href="../public/css/publicCSS.css">
+</head>
+
+<body>
+
+    <%- include('../views/components/navbar.ejs') %>
+
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Sidebar Menu -->
+                <%- include('../views/components/menu.ejs') %>
+
+                <!-- Main Content -->
+                <div id="main" class="col-md-7 pt-3 px-4">
+                    <div class="card card-post">
+                        <div class="card-userinfo">
+                            <img src="../public/img/img_user_logo_default.png" />
+                            <h5>User</h5>
+                        </div>
+                        <div class="post-element post-content">
+                            <div class="space-before-content"></div>
+                            <p>content here content here content here content here content here content here content
+                                here content here content here
+                                content here content here content here content here content here
+                                content here content here content here content here
+                                content here content here content here content here
+                                content here content here content here
+                            </p>
+                        </div>
+                        <div class="post-element post-active-bar">
+                            <div class="space-before-content"></div>
+                            <div class="post-active-bar-line">
+                                <div>
+                                    <img src="../public/img/img_like.png" /><span>Like</span>
+                                </div>
+                                <div>
+                                    <img src="../public/img/img_comment.png" /><span>Comment</span>
+                                </div>
+                                <div>
+                                    <img src="../public/img/img_share.png" /><span>Share</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Notifications -->
+                <div id="notification" class="col-md-3 notification pt-3">
+                    <h5 class="notification-title">Notifications</h5>
+                    <ul class="list-group ">
+                        <li class="list-group-item notification-list">username liked your post</li>
+                        <li class="list-group-item notification-list">username commented on your photo</li>
+                        <li class="list-group-item notification-list">username sent you a friend request</li>
+                        <li class="list-group-item notification-list">username followed you</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            // Load the navbar
+            $(function () {
+                $("#navbar-placeholder").load("navbar.html");
+            });
+        </script>
+</body>
+
+</html>
